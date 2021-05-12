@@ -1,5 +1,14 @@
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f7f7;
+}
 .card {
-  margin-right: 5px;
+  text-align: center;
+
   margin-bottom: 24px;
 }
 .cardImage {
@@ -9,9 +18,22 @@
   margin: 0 auto;
   width: 85%;
 }
-
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  border: 1px solid #3f72af;
+  background-color: #dbe2ef;
+}
+.card-text {
+  color: #112d4e;
+}
+.card-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #3f72af;
 }
