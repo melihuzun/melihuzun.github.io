@@ -1,2 +1,2 @@
 # melihuzun.github.io
-(https://kruvasan.me)
+(melihuzun.github.io)
